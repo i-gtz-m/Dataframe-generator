@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Data
+/data_generator/output/
+*.parquet
+*.csv
+
+# Virtual env / tools
+.venv/
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (DO NOT COMMIT)
+*.json
+*.pem
+*.p12
+*.key
+
+# Airflow local artifacts
+airflow_home/
+logs/
+dags/__pycache__/
